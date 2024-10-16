@@ -9,7 +9,7 @@ driver = webdriver.Chrome()
 driver.get("https://mainedot.drakewell.com/login.asp")
 
 username_field = driver.find_element(By.ID, "username")
-username_field.send_keys("ABC") //dummy user name
+username_field.send_keys("ABC") #dummy user name
 
 password_field = driver.find_element(By.ID, "password")
 password_field.send_keys("40c9d336")
